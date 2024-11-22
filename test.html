@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+    
+</head>
+<body>
+<!---1. Create a simple login form with fields for username and password. Add a submit button. Use HTML5 form validation to ensure both fields are required.--->   
+        <div class="login-form">
+            <h2>1.Login</h2>
+            <form action="#" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br>
+
+    
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br>
+    
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    
+ <!--2. Build a form with input types for text, email, password, and a date picker. Ensure that the email field has proper validation.--->   
+
+    <div class="form-container">
+        <h2>2.Registration Form</h2>
+        <form action="#" method="post">
+    
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+
+            <br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br>
+
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+<!--3. Use the <table> element to create a table with 3 rows and 4 columns. Include a header row and make the first column bold using inline HTML attributes.-->
+    <h2>3.Table</h2>
+    <br>
+    <table border="1">
+        <tr>
+            <th><strong>Header 1</strong></th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+            <th>Header 4</th>
+        </tr>
+        <tr>
+            <td><strong>Row 1, Col 1</strong></td>
+            <td>Row 1, Col 2</td>
+            <td>Row 1, Col 3</td>
+            <td>Row 1, Col 4</td>
+        </tr>
+        <tr>
+            <td><strong>Row 2, Col 1</strong></td>
+            <td>Row 2, Col 2</td>
+            <td>Row 2, Col 3</td>
+            <td>Row 2, Col 4</td>
+        </tr>
+        <tr>
+            <td><strong>Row 2, Col 1</strong></td>
+            <td>Row 3, Col 2</td>
+            <td>Row 3, Col 3</td>
+            <td>Row 3, Col 4</td>
+        </tr>
+    </table>
+
+<!--4. Add a video to a webpage using the <video> element. Set it to autoplay, loop.-->
+
+    <h1>4.My Video</h1>
+    <video  autoplay loop muted>
+        <source height=300px width="=50%" src="https://videos.pexels.com/video-files/4104890/4104890-sd_640_360_30fps.mp4" type="video/mp4">
+
+    </video>
+
+
+<!--5. Create an image gallery with three images side by side. Make each image clickable to open a larger version in a new tab.-->
+
+    <h2>5.Image Gallary</h2>
+
+    <div class="gallery">
+        <a href="image1_large.jpg" target="_blank">
+            <img   height=300px width="=50%" src="https://images.pexels.com/photos/757889/pexels-photo-757889.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Image 1">
+        </a>
+        <a href="image2_large.jpg" target="_blank">
+            <img height=300px width="=50%" src="https://images.pexels.com/photos/757889/pexels-photo-757889.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Image 2">
+        </a>
+        <a href="image3_large.jpg" target="_blank">
+            <img height=300px width="=50%" src="https://images.pexels.com/photos/757889/pexels-photo-757889.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Image 3">
+        </a>
+    </div>
+
+
+<!--6. Create a dropdown list of three items (e.g., colors or countries) and add an option that defaults to "Select One" using the <select> tag.-->
+
+
+    <h2>6.Dropdown List</h2>
+    
+    <label for="options">Choose an option:</label>
+<select id="options">
+    <option value="" disabled selected>Select One</option>
+    <option value="color1">Red</option>
+    <option value="color2">Green</option>
+    <option value="color3">Blue</option>
+</select>
+
+
+</body>
+</html>
